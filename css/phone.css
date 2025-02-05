@@ -1,0 +1,250 @@
+@media only screen and (max-width:395px){
+    .container{
+        width:100%;
+        margin: 0px auto;
+        height:100%;
+        background-color: var(--con-color);    
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .container h3{
+        color:var(--text-color);
+        font-size: 20px;
+        margin: 15px 0px;
+        font-family: "Montserrat", serif;
+    }
+/* NavBar Section */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 0px 15px;
+    font-size: 15px;
+}
+
+/* Home Section */
+.home-contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.item{
+    width:100%;
+    margin: 0;
+}
+.h-content h1{
+    font-size: 30px;
+    color: var(--text-color);
+    margin:0;
+}
+.h-content p{
+    margin: 0;
+    padding: 0%;
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 1.6rem;
+}
+.btn-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    margin-top:10px;
+}
+.btn-contain button{
+    padding: 8px 6px;
+    width: 170px;
+    margin: 0 5px;
+    font-family: var(--font-style);
+    font-weight: 600;
+    color: var(--text-color);
+    border-radius: 2px;
+}
+/* Image Setion  */
+.img-content{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+#img1 img{
+    width: 250px;
+    height: 280px;
+}
+#img2 img{
+    width: 250px;
+    height: 200px;
+}
+#img1{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+#img2{
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
+/* Stream Section */
+.stream-contain{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin:20px 0;
+    flex-direction: column;
+}
+.stream-contain h2{
+    font-size:35px;
+    margin: 0%;
+    padding: 10px 0;
+    color: var(--text-color);
+}
+.stream-box{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;    
+}
+.stream-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px 2px;
+    color: var(--text-color);
+}
+/* Blog Section */
+.blog-contain{
+    width: 100%;        
+    margin-top:65px;
+}
+.blog-contain h1{
+    font-family: var(--font-style);
+    font-size: 100px;
+    margin: 0;
+    font-weight: 1000;
+    padding: 0;
+    color:rgb(43, 39, 39);
+}
+.blog-box{
+    width: 100%;
+    margin-top:10px;
+}
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 22px 0px;
+}
+.b-item{
+    width:100%;
+    height: 100vh;
+    margin:7px 0px;
+}
+.b-item img{
+    margin: 0;
+    padding: 0%;
+    width:320px;
+    height: 240px;
+}
+.blog-item h3{
+    font-family: var(--font-style);
+    font-size: 25px;
+    margin: 5px 0;
+}
+.blog-item p{
+    font-family: var(--font-style);
+    color: var(--text-color);
+    font-size: 13px;
+    margin: 5px 0;
+    line-height: 1.3rem;
+}
+.icon-box i{
+    margin: 0 6px;
+    font-size: 25px;
+    color: white;
+}
+.btn-contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-top: 10px;
+}
+/* Youtube Section */
+.youtube-box{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.youtube-box button{
+    padding: 15px 20px;
+    width: 200px;
+    border-radius: 2px;
+    color: var(--text-color);
+}
+.youtube-box h1{
+    font-size: 30px;
+    color: var(--text-color);
+    font-family: var(--font-style);
+}
+.youtube-box div{
+    margin: 0px 40px;
+}
+/* Footer Section  */
+.foot-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.f-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2px 0px;
+}
+
+.f-item li{
+    font-family:var(--font-style);
+    color: var(--text-color);
+    list-style: none;
+    margin: 5px 0px;
+    
+}
+.f-item h3{
+    font-family: var(--font-style);
+    font-size: 17px;
+    color: var(--text-color);
+}
+.f-item p{
+    font-family: var(--font-style);
+    color: rgb(190, 179, 179);
+    font-size: 13px;
+}
+#Foot1{
+ width: 100%;   
+}
+#Foot2{
+    width: 100%;
+}
+#Foot3{
+    width: 100%;
+}
+}
