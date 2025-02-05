@@ -8,14 +8,14 @@
     padding: 0%;
     box-sizing: border-box;
 }
-    :root{
-        --font-style:"Montserrat", serif;
-        --btn-color:rgb(223, 48, 150);
-        --border-color:rgb(69, 166, 251);
-        --text-color:rgb(255, 255, 255);
-        --con-color:rgb(17, 18, 20);
-        --body-color:rgb(19, 19, 19);
-    }
+:root{
+    --font-style:"Montserrat", serif;
+    --btn-color:rgb(223, 48, 150);
+    --border-color:rgb(69, 166, 251);
+    --text-color:rgb(255, 255, 255);
+    --con-color:rgb(17, 18, 20);
+    --body-color:rgb(19, 19, 19);
+}
 .container{
     width:100%;
     margin: 0px auto;
