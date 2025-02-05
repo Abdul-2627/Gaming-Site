@@ -73,9 +73,7 @@
 }
 /* Image Setion  */
 .img-content{
-    margin: 0%;
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -188,7 +186,6 @@
 }
 /* Youtube Section */
 .youtube-box{
-    height: 270px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -216,7 +213,7 @@
     justify-content:center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 .f-item{
     display: flex;
