@@ -125,7 +125,8 @@
 }
 /* Blog Section */
 .blog-contain{
-    width: 100%;        
+    width: 100%;      
+    height: 100vh;  
     margin-top:20px;
     display: flex;
     flex-direction: column;
@@ -159,7 +160,6 @@
 }
 .b-item{
     width:100%;
-    height: 100vh;
     margin:15px 0px;
 }
 .b-item img{
