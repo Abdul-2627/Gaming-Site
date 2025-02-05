@@ -161,7 +161,7 @@ background-color: transparent;
     font-size: 60px;
     margin: 0%;
     padding: 0%;
-    color: var(--text-color);
+    color: rgb(190, 179, 179);
 }
 .stream-box{
     margin: 25px 0px;
@@ -171,7 +171,7 @@ background-color: transparent;
     justify-content: space-around;
     align-items: center;
     margin: 15px 0px;
-    color: var(--text-color);
+    color: #b8b5b5;
     font-family: var(--font-style);
 }
 
@@ -179,12 +179,15 @@ background-color: transparent;
 width: 200px;
 }
 .stream-content h3{
+    color: #b8b5b5;
     font-size: 55px;
 }
 .stream-content h4{
+    color: #b8b5b5;
     font-size: 25px;
 }
 .stream-content h5{
+    color: #b8b5b5;
     font-size: 20px;
 }
 
