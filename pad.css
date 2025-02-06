@@ -15,6 +15,7 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
+        padding: 0px 3px;
         margin: 25px 0px;
     }
     .item{
@@ -70,6 +71,7 @@
         display: flex;
         width: 100%;
         height: 100%;
+        padding: 0px 3px;
         margin:0px;
         flex-direction: column;
     }
@@ -114,6 +116,7 @@
 .blog-contain{
     width: 100%;      
     height: 100%;  
+    padding: 0px 3px;
     margin-top:20px;
     display: flex;
     flex-direction: column;
@@ -171,7 +174,6 @@ flex-direction: column-reverse;
         color: var(--text-color);
         font-family: var(--font-style);
     }
-    .youtube-box div{}
     /* Footer Section  */
     .foot-contain{
         display: flex;
@@ -180,6 +182,7 @@ flex-direction: column-reverse;
         align-items: center;
         width: 100%;
         height: 100%;
+        padding: 0px 3px;
     }
     .f-item{
         display: flex;
