@@ -233,7 +233,7 @@ width: 200px;
 }
 .b-item{
     width: 45%;
-    margin: 0px 10px;
+    margin: 0px 15px;
 }
 .b-item img{
     width:500px;
@@ -254,6 +254,7 @@ width: 200px;
 .blog-img{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .icon-box{
@@ -263,7 +264,7 @@ width: 200px;
     margin-top: 10px;
 }
 .icon-box i{
-    margin: 0 10px;
+    margin: 0px;
     font-size: 25px;
     color: white;
 }
