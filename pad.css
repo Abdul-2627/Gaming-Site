@@ -132,7 +132,7 @@
 }
 .blog-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: 100%;
     width: 100%;
     margin: 15px 0px;
@@ -141,7 +141,8 @@
     width: 100%;
 }
 .b-item img{
-    width:490;
+    width:100%;
+    object-fit: cover;
     height: 290px;
 }
 

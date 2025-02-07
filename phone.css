@@ -1,4 +1,4 @@
-@media only screen and (min-width:370px) and (max-width:500px){
+@media only screen and (min-width:360px) and (max-width:500px){
     :root{
         --font-style:"Montserrat", serif;
         --btn-color:rgb(223, 48, 150);
@@ -72,9 +72,9 @@
     margin-top:19px;
 }
 .btn-contain button{
-    padding: 8px 6px;
+    padding: 8px 5px;
     width: 170px;
-    margin:12px 5px;
+    margin:8px 2px;
     font-family: var(--font-style);
     font-weight: 600;
     color: var(--text-color);
@@ -154,7 +154,7 @@
 }
 .blog-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: 100%;
     width: 100%;
     margin: 18px 0px;

@@ -94,6 +94,7 @@
 .btn-contain button{
     padding: 15px 12px;
     width: 180px;
+    justify-content: center;
     margin: 0 7px;
     font-family: var(--font-style);
     font-weight: 600;
@@ -178,6 +179,7 @@ background-color: transparent;
 
 .stream-content h3,h4,h5{
 width: 200px;
+margin:0px 50px;
 }
 .stream-content h3{
     color: #b8b5b5;
