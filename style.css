@@ -39,15 +39,15 @@
     padding: 0px 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    height: 30px;
+    margin: 10px 0px;
 }
 
 #navbar ul{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+
 }
 #navbar ul li{
     list-style: none;
